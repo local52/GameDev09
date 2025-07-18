@@ -29,22 +29,22 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey("w"))
         {
             movement += Vector3.forward;
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+            //transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         if (Input.GetKey("s"))
         {
             movement += Vector3.back;
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            //transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         if (Input.GetKey("a"))
         {
             movement += Vector3.left;
-            transform.rotation = Quaternion.Euler(0, 270, 0);
+            //transform.rotation = Quaternion.Euler(0, 270, 0);
         }
         if (Input.GetKey("d"))
         {
             movement += Vector3.right;
-            transform.rotation = Quaternion.Euler(0, 90, 0);
+            //transform.rotation = Quaternion.Euler(0, 90, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
