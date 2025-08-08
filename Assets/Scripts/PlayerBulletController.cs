@@ -15,11 +15,22 @@ public class PlayerBulletController : MonoBehaviour
     {
         // 速度ベクトルを求める
         GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
-        Vector3 v = enemy.transform.position - this.transform.position;
-        v = v.normalized * m_speed;
+        if (enemy != null)
+        {
+            Vector3 v = enemy.transform.position - this.transform.position;
+            v = v.normalized * m_speed;
+            Rigidbody rb1 = GetComponent<Rigidbody>();
+            rb1.velocity = v;
+        }
+        if (enemy == null)
+        {
+            Vector3 vector3 = Vector3.forward;
+            vector3 = vector3.normalized * m_speed;
+            Rigidbody rb2 = GetComponent<Rigidbody>();
+            rb2.velocity = vector3;
+        }
 
         // 速度ベクトルをセットする
-        Rigidbody rb = GetComponent<Rigidbody>();
-        rb.velocity = v;
+
     }
 }
