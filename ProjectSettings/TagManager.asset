@@ -7,6 +7,8 @@ TagManager:
   - groundTag
   - PlayerHead
   - Enemy
+  - KillWall
+  - Bullet
   layers:
   - Default
   - TransparentFX

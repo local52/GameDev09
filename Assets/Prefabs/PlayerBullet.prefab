@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2285473117695524644}
   m_Layer: 0
   m_Name: PlayerBullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ccec0b231c1e1f48ac392df103cf2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_speed: 75
+  m_speed: 80
+  m_time: 0
 --- !u!96 &2285473117695524644
 TrailRenderer:
   serializedVersion: 3

@@ -86,6 +86,10 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
             airControlEndTime = 0f;
         }
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject); // é©êgÇîjâÛ
+        }
     }
 
     void OnCollisionStay(Collision collision)

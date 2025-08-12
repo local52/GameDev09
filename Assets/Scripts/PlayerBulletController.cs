@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -10,6 +11,7 @@ using UnityEngine;
 public class PlayerBulletController : MonoBehaviour
 {
     [SerializeField] float m_speed = 1f;
+    [SerializeField] float m_time = 0f;
 
     void Start()
     {
@@ -30,7 +32,24 @@ public class PlayerBulletController : MonoBehaviour
             rb2.velocity = vector3;
         }
 
-        // 速度ベクトルをセットする
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        // タグが "KillWall" または 自身が "Enemy" タグの場合に自身を破壊
+        if (collision.gameObject.CompareTag("KillWall") || gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
+    void Update()
+    {
+        m_time += Time.deltaTime;
+        if(m_time >= 5)
+        {
+            Destroy(gameObject);
+        }
 
     }
 }
