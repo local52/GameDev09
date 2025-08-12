@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : PlayerBulletController
 {
     [SerializeField] int speed = 6;
     [SerializeField] float jumpForce = 5f;

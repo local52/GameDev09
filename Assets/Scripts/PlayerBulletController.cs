@@ -12,6 +12,7 @@ public class PlayerBulletController : MonoBehaviour
 {
     [SerializeField] float m_speed = 1f;
     [SerializeField] float m_time = 0f;
+    
 
     void Start()
     {
@@ -36,10 +37,16 @@ public class PlayerBulletController : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         // タグが "KillWall" または 自身が "Enemy" タグの場合に自身を破壊
-        if (collision.gameObject.CompareTag("KillWall") || gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("KillWall"))
         {
             Destroy(gameObject);
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            GameManager.Instance.KillCount += 1; // 全体のキル数を加算
+        }
+
     }
 
 

@@ -22,4 +22,18 @@ public class EnemyBulletController : MonoBehaviour
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.velocity = v;
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        // タグが "KillWall" または 自身が "Enemy" タグの場合に自身を破壊
+        if (collision.gameObject.CompareTag("KillWall"))
+        {
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+            
+        }
+
+    }
 }

@@ -272,7 +272,7 @@ Transform:
   m_GameObject: {fileID: 9028164231429949351}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.58, z: -5.39}
+  m_LocalPosition: {x: 0, y: 1.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -369,6 +369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5cc6924ad9c0e48bd798d5e3223894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_speed: 1
+  m_time: 0
   speed: 6
   jumpForce: 5
   groundTag: groundTag
