@@ -13,10 +13,46 @@ public class EnemySpowner : MonoBehaviour
     [Header("¢Š«ˆÊ’u")]
     [SerializeField] public Transform spawnPoint;
 
-    private float timer;
+    [Header("ƒŒƒxƒ‹‚P‚ÌŽž")]
+    [SerializeField] public float _1_Interval = 10;
+  
 
+    [Header("ƒŒƒxƒ‹‚Q‚ÌŽž")]
+    [SerializeField] public float _2_Interval = 5;
+    
+
+    [Header("ƒŒƒxƒ‹‚R‚ÌŽž")]
+    [SerializeField] public float _3_Interval = 5;
+    
+
+    [Header("ƒo[ƒWƒ‡ƒ“ŠÇ—‚OC‚PC‚Q")]
+    [SerializeField] public int _versions = 0;
+
+    private float timer;
+    private float _timer;
+    private int _interval;
+    private float _interval1;
+    private float _interval2;
+    private float _interval3;
     void Update()
     {
+        _timer += Time.deltaTime;
+        spawnInterval = _interval;
+
+        if (_timer >= _interval1 && _versions == 0)
+        {
+            _1_Interval = 10f; // ƒŒƒxƒ‹1‚Ì¢Š«ŠÔŠu
+        }
+
+        if (_timer >= _interval2 && _versions == 1)
+        {
+            _2_Interval = 5f; // ƒŒƒxƒ‹2‚Ì¢Š«ŠÔŠu
+        }
+
+        if (_timer >= _interval3 && _versions == 2)
+        {
+            _3_Interval = 2f; // ƒŒƒxƒ‹3‚Ì¢Š«ŠÔŠu
+        }
         timer += Time.deltaTime;
 
         if (timer >= spawnInterval)
@@ -25,6 +61,7 @@ public class EnemySpowner : MonoBehaviour
             timer = 0f;
         }
     }
+    
 
     void Spawn()
     {
