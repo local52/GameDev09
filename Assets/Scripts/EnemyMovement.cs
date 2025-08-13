@@ -20,6 +20,10 @@ public class EnemyMovement : MonoBehaviour
         m_goTime += Time.deltaTime;
         if (m_goTime >= m_time)
         {
+            if (GameObject.FindGameObjectWithTag("PlayerHead") == null)
+            {
+                return; // プレイヤーがいない場合は何もしない
+            }
             // 速度ベクトルを求める
             GameObject player = GameObject.FindGameObjectWithTag("PlayerHead");
             Vector3 v = player.transform.position - this.transform.position;
