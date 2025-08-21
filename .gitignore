@@ -97,3 +97,701 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+Assets/Materials.meta
+Assets/Materials/PBS Materials Variety Pack.meta
+Assets/Materials/YughuesFreeManmadeMaterials.meta
+Assets/Materials/PBS Materials Variety Pack/000 Example Scene Sample.meta
+Assets/Materials/PBS Materials Variety Pack/000 Example Scene Sample.unity
+Assets/Materials/PBS Materials Variety Pack/000 Example Scene Sample.unity.meta
+Assets/Materials/PBS Materials Variety Pack/Asphalt.meta
+Assets/Materials/PBS Materials Variety Pack/Bark.meta
+Assets/Materials/PBS Materials Variety Pack/Brick.meta
+Assets/Materials/PBS Materials Variety Pack/Carpet.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone.meta
+Assets/Materials/PBS Materials Variety Pack/Concrete.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt.meta
+Assets/Materials/PBS Materials Variety Pack/Fabric.meta
+Assets/Materials/PBS Materials Variety Pack/Food.meta
+Assets/Materials/PBS Materials Variety Pack/Glass.meta
+Assets/Materials/PBS Materials Variety Pack/Grass.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice.meta
+Assets/Materials/PBS Materials Variety Pack/Metal.meta
+Assets/Materials/PBS Materials Variety Pack/Paint.meta
+Assets/Materials/PBS Materials Variety Pack/readme.txt
+Assets/Materials/PBS Materials Variety Pack/readme.txt.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks.meta
+Assets/Materials/PBS Materials Variety Pack/Shingles.meta
+Assets/Materials/PBS Materials Variety Pack/Stone.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards.meta
+Assets/Materials/PBS Materials Variety Pack/zzz.meta
+Assets/Materials/PBS Materials Variety Pack/000 Example Scene Sample/LightingData.asset
+Assets/Materials/PBS Materials Variety Pack/000 Example Scene Sample/LightingData.asset.meta
+Assets/Materials/PBS Materials Variety Pack/000 Example Scene Sample/ReflectionProbe-0.exr
+Assets/Materials/PBS Materials Variety Pack/000 Example Scene Sample/ReflectionProbe-0.exr.meta
+Assets/Materials/PBS Materials Variety Pack/Asphalt/Asphalt 1.mat
+Assets/Materials/PBS Materials Variety Pack/Asphalt/Asphalt 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Asphalt/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Asphalt/Textures/Asphalt 1 bump.png
+Assets/Materials/PBS Materials Variety Pack/Asphalt/Textures/Asphalt 1 bump.png.meta
+Assets/Materials/PBS Materials Variety Pack/Asphalt/Textures/Asphalt 1.png
+Assets/Materials/PBS Materials Variety Pack/Asphalt/Textures/Asphalt 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Bark 2.mat
+Assets/Materials/PBS Materials Variety Pack/Bark/Bark 2.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Normals2.png
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Normals2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1.png
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 2 bump.png
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 2 bump.png.meta
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 2.png
+Assets/Materials/PBS Materials Variety Pack/Bark/Textures/Bark 2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Brick 1.mat
+Assets/Materials/PBS Materials Variety Pack/Brick/Brick 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Brick 10.mat
+Assets/Materials/PBS Materials Variety Pack/Brick/Brick 10.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Brick 5.mat
+Assets/Materials/PBS Materials Variety Pack/Brick/Brick 5.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 AO.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 AO.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 Specular.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1 Specular.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 10 AO.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 10 AO.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 10 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 10 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 10 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 10 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick 5.png.meta
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick10.png
+Assets/Materials/PBS Materials Variety Pack/Brick/Textures/Brick10.png.meta
+Assets/Materials/PBS Materials Variety Pack/Carpet/Carpet 1.mat
+Assets/Materials/PBS Materials Variety Pack/Carpet/Carpet 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Carpet/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Carpet/Textures/Carpet 1 bump.png
+Assets/Materials/PBS Materials Variety Pack/Carpet/Textures/Carpet 1 bump.png.meta
+Assets/Materials/PBS Materials Variety Pack/Carpet/Textures/Carpet 1.png
+Assets/Materials/PBS Materials Variety Pack/Carpet/Textures/Carpet 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Cobblestone 1.mat
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Cobblestone 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Metallic.png
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Metallic.png.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1.png
+Assets/Materials/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Concrete/Concrete 1.mat
+Assets/Materials/PBS Materials Variety Pack/Concrete/Concrete 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Concrete/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Concrete/Textures/Concrete 1 bump.png
+Assets/Materials/PBS Materials Variety Pack/Concrete/Textures/Concrete 1 bump.png.meta
+Assets/Materials/PBS Materials Variety Pack/Concrete/Textures/Concrete 1.png
+Assets/Materials/PBS Materials Variety Pack/Concrete/Textures/Concrete 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Dirt 3.mat
+Assets/Materials/PBS Materials Variety Pack/Dirt/Dirt 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Dirt 5.mat
+Assets/Materials/PBS Materials Variety Pack/Dirt/Dirt 5.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Dirt 7.mat
+Assets/Materials/PBS Materials Variety Pack/Dirt/Dirt 7.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 bump.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 bump.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 3.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 5.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7.png
+Assets/Materials/PBS Materials Variety Pack/Dirt/Textures/Dirt 7.png.meta
+Assets/Materials/PBS Materials Variety Pack/Fabric/Fabric 1.mat
+Assets/Materials/PBS Materials Variety Pack/Fabric/Fabric 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1.png
+Assets/Materials/PBS Materials Variety Pack/Fabric/Textures/Fabric 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Food/Food 1.mat
+Assets/Materials/PBS Materials Variety Pack/Food/Food 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Food/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1.png
+Assets/Materials/PBS Materials Variety Pack/Food/Textures/Food 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Glass 2.mat
+Assets/Materials/PBS Materials Variety Pack/Glass/Glass 2.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Glass 3.mat
+Assets/Materials/PBS Materials Variety Pack/Glass/Glass 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/Glass 2 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/Glass 2 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/Glass 2.png
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/Glass 2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless_emission.png
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless_emission.png.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless_emission_glow.png
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless_emission_glow.png.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless2.png
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless2_normals.png
+Assets/Materials/PBS Materials Variety Pack/Glass/Textures/glass3_seamless2_normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Grass 2.mat
+Assets/Materials/PBS Materials Variety Pack/Grass/Grass 2.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Grass 3.mat
+Assets/Materials/PBS Materials Variety Pack/Grass/Grass 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 2 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 2 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 2 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 2 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 2.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Normals2.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Normals2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3.png
+Assets/Materials/PBS Materials Variety Pack/Grass/Textures/Grass 3.png.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexlattice08.mat
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexlattice08.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexlattice14.mat
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexlattice14.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexlattice16.mat
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexlattice16.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_ambientocclusion.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_ambientocclusion.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_basecolor.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_basecolor.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_emissive.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_emissive.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_height.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_height.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_metallic.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_metallic.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_normal_direct_x.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_normal_direct_x.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_normal_open_gl.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_normal_open_gl.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_opacity.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_opacity.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_roughness.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/07/lattice_07_roughness.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_ambientocclusion.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_ambientocclusion.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_basecolor.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_basecolor.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_emissive.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_emissive.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_height.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_height.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_metallic.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_metallic.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_normal_direct_x.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_normal_direct_x.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_normal_open_gl.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_normal_open_gl.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_opacity.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_opacity.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_roughness.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/08/lattice_08_roughness.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_ambientocclusion.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_ambientocclusion.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_basecolor.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_basecolor.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_emissive.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_emissive.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_height.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_height.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_metallic.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_metallic.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_normal_direct_x.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_normal_direct_x.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_normal_open_gl.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_normal_open_gl.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_opacity.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_opacity.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_roughness.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/14/lattice_14_roughness.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_albedo.png
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_albedo.png.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_ambientocclusion.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_ambientocclusion.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_basecolor.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_basecolor.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_emissive.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_emissive.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_height.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_height.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_metallic.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_metallic.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_metallic_roughness.png
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_metallic_roughness.png.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_opacity.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_opacity.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_roughness.tif
+Assets/Materials/PBS Materials Variety Pack/Hex Lattice/hexagonal lattice_Textures/16/hexagonal_lattice_roughness.tif.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 11.mat
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 11.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 16.mat
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 16.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 17.mat
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 17.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 3.mat
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 5b.mat
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 5b.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 6.mat
+Assets/Materials/PBS Materials Variety Pack/Metal/Metal 6.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 11.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 16.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Metallic.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Metallic.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 17.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 3.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 3.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 5.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 6 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 6 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 6 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 6 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 6 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal 6 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust 2 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust 2 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust 2.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust 2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust DetailMask.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust DetailMask.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust Metallic.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust Metallic.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust Normals.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust.png
+Assets/Materials/PBS Materials Variety Pack/Metal/Textures/Metal Rust.png.meta
+Assets/Materials/PBS Materials Variety Pack/Paint/Paint 1.mat
+Assets/Materials/PBS Materials Variety Pack/Paint/Paint 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1.png
+Assets/Materials/PBS Materials Variety Pack/Paint/Textures/Paint 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 1.mat
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 3.mat
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 5.mat
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 5.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 6.mat
+Assets/Materials/PBS Materials Variety Pack/Rocks/Rocks 6.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 3.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Normals2.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Normals2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 5.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 6.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks 6.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks6_AO.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks6_AO.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks6_Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks6_Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks6_Normals.png
+Assets/Materials/PBS Materials Variety Pack/Rocks/Textures/Rocks6_Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Shingles/Shingles 1.mat
+Assets/Materials/PBS Materials Variety Pack/Shingles/Shingles 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1.png
+Assets/Materials/PBS Materials Variety Pack/Shingles/Textures/Shingles 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Stone 3.mat
+Assets/Materials/PBS Materials Variety Pack/Stone/Stone 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Normals2.png
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Normals2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3.png
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3.png.meta
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3_2 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Stone/Textures/Stone 3_2 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 2.mat
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 2.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 3.mat
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 4.mat
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 4.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 5.mat
+Assets/Materials/PBS Materials Variety Pack/Tiles/Tile 5.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Metallic.png
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Metallic.png.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2.png
+Assets/Materials/PBS Materials Variety Pack/Tiles/Textures/Tile 2.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Wooden Boards 1.mat
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Wooden Boards 1.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Wooden Boards 3.mat
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Wooden Boards 3.mat.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/NiceDust.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/NiceDust.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 1.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3 Displacement.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3 Displacement.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3 Normals.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3 Normals.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3 Occlusion.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3 Occlusion.png.meta
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3.png
+Assets/Materials/PBS Materials Variety Pack/Wooden Boards/Textures/Wooden Boards 3.png.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/allmaterials_Profiles.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/CameraAnimation.anim
+Assets/Materials/PBS Materials Variety Pack/zzz/CameraAnimation.anim.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/coming_soon.mat
+Assets/Materials/PBS Materials Variety Pack/zzz/coming_soon.mat.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/coming_soon.png
+Assets/Materials/PBS Materials Variety Pack/zzz/coming_soon.png.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/exampleSettings.lighting
+Assets/Materials/PBS Materials Variety Pack/zzz/exampleSettings.lighting.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/Main Camera.controller
+Assets/Materials/PBS Materials Variety Pack/zzz/Main Camera.controller.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/MaterialRandomizer.cs
+Assets/Materials/PBS Materials Variety Pack/zzz/MaterialRandomizer.cs.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/MaterialRandomizerScript.cs
+Assets/Materials/PBS Materials Variety Pack/zzz/MaterialRandomizerScript.cs.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/Moon Controller.controller
+Assets/Materials/PBS Materials Variety Pack/zzz/Moon Controller.controller.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/MoonOff.anim
+Assets/Materials/PBS Materials Variety Pack/zzz/MoonOff.anim.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/MoonOn.anim
+Assets/Materials/PBS Materials Variety Pack/zzz/MoonOn.anim.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/Reflection Probe-reflectionHDR.exr
+Assets/Materials/PBS Materials Variety Pack/zzz/Reflection Probe-reflectionHDR.exr.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/skybox.mat
+Assets/Materials/PBS Materials Variety Pack/zzz/skybox.mat.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/Sun Controller.controller
+Assets/Materials/PBS Materials Variety Pack/zzz/Sun Controller.controller.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/Sun Point Controller.controller
+Assets/Materials/PBS Materials Variety Pack/zzz/Sun Point Controller.controller.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/SunOff.anim
+Assets/Materials/PBS Materials Variety Pack/zzz/SunOff.anim.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/SunOn.anim
+Assets/Materials/PBS Materials Variety Pack/zzz/SunOn.anim.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/SunPointOff.anim
+Assets/Materials/PBS Materials Variety Pack/zzz/SunPointOff.anim.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/SunPointOn.anim
+Assets/Materials/PBS Materials Variety Pack/zzz/SunPointOn.anim.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/urban_courtyard_4k.hdr
+Assets/Materials/PBS Materials Variety Pack/zzz/urban_courtyard_4k.hdr.meta
+Assets/Materials/PBS Materials Variety Pack/zzz/allmaterials_Profiles/Main Camera Profile.asset
+Assets/Materials/PBS Materials Variety Pack/zzz/allmaterials_Profiles/Main Camera Profile.asset.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_BubbleWrap.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_BubbleWrap.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_CarbonFiber.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_CarbonFiber.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chainmail.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chainmail.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chains.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chains.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chesterfield01.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chesterfield01.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chesterfield02.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Chesterfield02.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_EggFoam.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_EggFoam.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_GarbageBags.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_GarbageBags.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_PackageFoam.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_PackageFoam.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_PlasticShutter.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_PlasticShutter.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_PlasticWindows.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_PlasticWindows.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedBolts.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedBolts.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedCaps.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedCaps.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedGears.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedGears.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedNails.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedNails.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedScrews.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_RustedScrews.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Scales.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Scales.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_SciFi.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_SciFi.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_SolarPanel.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_SolarPanel.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Trash.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Materials/M_YFMaM_Trash.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/LS_Preview.lighting
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/LS_Preview.lighting.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/M_checker.mat
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/M_checker.mat.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Mesh_Sphere.fbx
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Mesh_Sphere.fbx.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/P_Sphere_01.prefab
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/P_Sphere_01.prefab.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview.unity
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview.unity.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/T_Checker.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/T_Checker.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/LightingData.asset
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/LightingData.asset.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/Lightmap-0_comp_light.exr.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/ReflectionProbe-1.exr
+Assets/Materials/YughuesFreeManmadeMaterials/Preview/Sc_Preview/ReflectionProbe-1.exr.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_BubbleWrap_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_BubbleWrap_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_CarbonFiber_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_CarbonFiber_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chainmail_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chainmail_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chainmail_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chainmail_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chainmail_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chainmail_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chains_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chains_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chains_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chains_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chains_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chains_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield01_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield01_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield01_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield01_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield01_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield01_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield02_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield02_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield02_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield02_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield02_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Chesterfield02_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_EggFoam_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_EggFoam_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_EggFoam_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_EggFoam_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_GarbageBags_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_GarbageBags_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_GarbageBags_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_GarbageBags_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_GarbageBags_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_GarbageBags_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PackageFoam_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PackageFoam_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PackageFoam_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PackageFoam_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PackageFoam_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PackageFoam_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticShutter_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticShutter_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticShutter_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticShutter_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticShutter_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticShutter_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticWindows_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticWindows_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticWindows_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticWindows_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticWindows_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_PlasticWindows_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedBolts_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedBolts_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedBolts_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedBolts_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedBolts_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedBolts_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedCaps_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedCaps_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedCaps_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedCaps_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedCaps_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedCaps_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedGears_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedGears_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedGears_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedGears_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedGears_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedGears_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedNails_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedNails_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedNails_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedNails_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedNails_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedNails_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedScrews_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedScrews_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedScrews_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedScrews_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedScrews_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_RustedScrews_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Scales_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Scales_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Scales_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Scales_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Scales_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Scales_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SciFi_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SciFi_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SciFi_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SciFi_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SciFi_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SciFi_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SolarPanel_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SolarPanel_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SolarPanel_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SolarPanel_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SolarPanel_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_SolarPanel_s.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Trash_d.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Trash_d.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Trash_n.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Trash_n.tga.meta
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Trash_s.tga
+Assets/Materials/YughuesFreeManmadeMaterials/Textures/T_YFMaM_Trash_s.tga.meta
