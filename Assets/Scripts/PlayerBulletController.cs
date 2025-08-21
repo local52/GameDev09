@@ -53,7 +53,7 @@ public class PlayerBulletController : MonoBehaviour
     void Update()
     {
         m_time += Time.deltaTime;
-        if(m_time >= 5)
+        if(m_time >= 2)
         {
             Destroy(gameObject);
         }

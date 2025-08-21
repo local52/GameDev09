@@ -15,12 +15,19 @@ public class EnemyBulletController : MonoBehaviour
     {
         // 速度ベクトルを求める
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        Vector3 v = player.transform.position - this.transform.position;
-        v = v.normalized * m_speed;
+        if (player != null)
+        {
 
-        // 速度ベクトルをセットする
-        Rigidbody rb = GetComponent<Rigidbody>();
-        rb.velocity = v;
+            Vector3 v = player.transform.position - this.transform.position;
+            v = v.normalized * m_speed;
+            // 速度ベクトルをセットする
+            Rigidbody rb = GetComponent<Rigidbody>();
+            rb.velocity = v;
+        }
+        else
+        {
+            Destroy(gameObject); // プレイヤーがいない場合は弾を破壊
+        }
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -32,7 +39,7 @@ public class EnemyBulletController : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
-            
+
         }
 
     }
