@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Muzzle : MonoBehaviour
+public class PlayerMuzzle : MonoBehaviour
 {
 
 
     [Header("召喚するプレハブ")]
-    [SerializeField]public GameObject prefab;
+    [SerializeField] public GameObject prefab;
 
     [Header("召喚間隔（秒）")]
-    [SerializeReference]public float spawnInterval = 2f;
+    [SerializeReference] public float spawnInterval = 2f;
 
     [Header("召喚位置")]
-    [SerializeField]public Transform spawnPoint;
+    [SerializeField] public Transform spawnPoint;
 
     private float timer;
 
@@ -23,8 +23,11 @@ public class Muzzle : MonoBehaviour
 
         if (timer >= spawnInterval)
         {
-            Spawn();
-            timer = 0f;
+            if (Input.GetButton("Fire1")) // "Fire1" はデフォルトで左クリックやスペースキーに割り当てられています
+            {
+                Spawn();
+                timer = 0f;// スペースキーが押されたときに召喚
+            }
         }
     }
 
