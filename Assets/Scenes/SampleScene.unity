@@ -765,11 +765,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 7204137802978296947, guid: ac5c993bca265ad4fbf5ae715e544ccb, type: 3}
-  spawnInterval: 8
+  spawnInterval: 10
   spawnPoint: {fileID: 808394564}
-  _1_Interval: 8
-  _2_Interval: 5
-  _3_Interval: 4
+  _1_Interval: 10
+  _2_Interval: 7
+  _3_Interval: 5
   _versions: 0
   _Kill: 0
 --- !u!4 &808394564
@@ -781,7 +781,7 @@ Transform:
   m_GameObject: {fileID: 808394561}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.11, y: 1.43, z: 67.96}
+  m_LocalPosition: {x: -8.56, y: 1.43, z: 67.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -42,6 +42,7 @@ public class EnemySpawner : MonoBehaviour
         if (_Kill >= 30)
         {
             _versions += 1;
+            GameManager.Instance.KillCount = 0; // キル数をリセット
         }
 
 
