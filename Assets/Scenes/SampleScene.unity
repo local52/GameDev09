@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3860e8f5e7c741644812d01f88e9fb15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7204137802978296947, guid: ac5c993bca265ad4fbf5ae715e544ccb, type: 3}
+  prefab: {fileID: 8356855581528419237, guid: ac5c993bca265ad4fbf5ae715e544ccb, type: 3}
   spawnInterval: 10
   spawnPoint: {fileID: 808394564}
   _1_Interval: 10
@@ -2038,6 +2038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 8272594557735380092, guid: 65f5f226262af98458be9b5b2bfabac9, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 8356855581528419237, guid: ac5c993bca265ad4fbf5ae715e544ccb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
