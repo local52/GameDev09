@@ -9,6 +9,8 @@ public class Clush : MonoBehaviour
     [SerializeField] Slider _slider;
     [SerializeField] Image _crackImage;   // ひび割れ表示用
     [SerializeField] Sprite[] _crackSprites; // 0=なし, 1=小, 2=中, 3=大
+    [SerializeField] GameObject _player; // プレイヤーオブジェクト
+    [SerializeField] Animator _anim; // プレイヤーの移動アニメーション
 
     public float _maxDashPoint = 5;
 
@@ -20,6 +22,7 @@ public class Clush : MonoBehaviour
         _dashPoint = _maxDashPoint;
         _slider.maxValue = _maxDashPoint;
         _slider.value = _maxDashPoint;
+        _anim = GetComponent<Animator>();
 
         // 最初はひび割れ無し
         if (_crackImage != null)
@@ -35,6 +38,8 @@ public class Clush : MonoBehaviour
         {
             _click = true;
             Debug.Log("止まった値: " + _slider.value);
+            _anim.SetTrigger("Attack"); // Animator の Trigger を呼ぶ
+
 
             ShowCrack(_slider.value);
         }
