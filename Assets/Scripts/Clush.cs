@@ -3,16 +3,26 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Clush : MonoBehaviour
 {
     private float _upDown;
     private bool _onOff = false;
     private bool _click = false;
+
+    [SerializeField] Slider _slider;
+    public float _maxDashPoint = 5;
+
+    float _dashPoint;
+    float _currentVelocity = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        _dashPoint = _maxDashPoint;
+        _slider.maxValue = _maxDashPoint;
+        _slider.value = _maxDashPoint;
     }
 
     // Update is called once per frame
@@ -54,6 +64,19 @@ public class Clush : MonoBehaviour
         else
         {
             
+        }
+
+        float currentDashPT = Mathf.SmoothDamp(_slider.value, _dashPoint, ref _currentVelocity, 10 * Time.deltaTime);
+        _slider.value = currentDashPT;
+
+        if (Input.GetKeyDown(KeyCode.E) && _dashPoint < _maxDashPoint)
+        {
+            _dashPoint++;
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Q) && _dashPoint > 0)
+        {
+            _dashPoint--;
         }
     }
 }
