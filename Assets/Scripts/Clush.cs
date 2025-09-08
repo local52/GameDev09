@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +7,9 @@ public class Clush : MonoBehaviour
     private bool _click = false;
 
     [SerializeField] Slider _slider;
+    [SerializeField] Image _crackImage;   // Ç–Ç—äÑÇÍï\é¶óp
+    [SerializeField] Sprite[] _crackSprites; // 0=Ç»Çµ, 1=è¨, 2=íÜ, 3=ëÂ
+
     public float _maxDashPoint = 5;
 
     float _dashPoint;
@@ -19,6 +20,12 @@ public class Clush : MonoBehaviour
         _dashPoint = _maxDashPoint;
         _slider.maxValue = _maxDashPoint;
         _slider.value = _maxDashPoint;
+
+        // ç≈èâÇÕÇ–Ç—äÑÇÍñ≥Çµ
+        if (_crackImage != null)
+        {
+            _crackImage.sprite = _crackSprites[0];
+        }
     }
 
     void FixedUpdate()
@@ -28,6 +35,8 @@ public class Clush : MonoBehaviour
         {
             _click = true;
             Debug.Log("é~Ç‹Ç¡ÇΩíl: " + _slider.value);
+
+            ShowCrack(_slider.value);
         }
 
         // é~Ç‹Ç¡ÇƒÇ»Ç¢Ç∆Ç´ÇæÇØè„â∫â^ìÆ
@@ -56,9 +65,31 @@ public class Clush : MonoBehaviour
                 _slider.value,
                 _dashPoint,
                 ref _currentVelocity,
-                0.3f // Å© ÉXÉÄÅ[ÉYÇ≥(ïb) Ç±Ç±Çí≤êÆ
+                0.3f
             );
             _slider.value = currentDashPT;
+        }
+    }
+
+    void ShowCrack(float value)
+    {
+        if (_crackImage == null || _crackSprites.Length < 4) return;
+
+        if (value < 1f)
+        {
+            _crackImage.sprite = _crackSprites[0]; // Ç»Çµ
+        }
+        else if (value < 3f)
+        {
+            _crackImage.sprite = _crackSprites[1]; // è¨
+        }
+        else if (value < 4.5f)
+        {
+            _crackImage.sprite = _crackSprites[2]; // íÜ
+        }
+        else
+        {
+            _crackImage.sprite = _crackSprites[3]; // ëÂ
         }
     }
 }
