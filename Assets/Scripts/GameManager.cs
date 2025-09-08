@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public float KillCount = 0;
+    public float Score = 0;
 
     void Awake()
     {

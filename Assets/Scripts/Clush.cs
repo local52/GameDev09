@@ -12,7 +12,7 @@ public class Clush : MonoBehaviour
     [SerializeField] GameObject _player; // プレイヤーオブジェクト
     [SerializeField] Animator _anim; // プレイヤーの移動アニメーション
 
-    public float _maxDashPoint = 5;
+    public float _maxDashPoint = 1;
 
     float _dashPoint;
     float _currentVelocity = 0;
@@ -80,15 +80,15 @@ public class Clush : MonoBehaviour
     {
         if (_crackImage == null || _crackSprites.Length < 4) return;
 
-        if (value < 1f)
+        if (value < 0.2f)
         {
             _crackImage.sprite = _crackSprites[0]; // なし
         }
-        else if (value < 3f)
+        else if (value < 0.5f)
         {
             _crackImage.sprite = _crackSprites[1]; // 小
         }
-        else if (value < 4.5f)
+        else if (value < 0.75f)
         {
             _crackImage.sprite = _crackSprites[2]; // 中
         }
