@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Clush : MonoBehaviour
 {
-    private float _upDown;
     private bool _onOff = false;
     private bool _click = false;
 
@@ -17,7 +14,6 @@ public class Clush : MonoBehaviour
     float _dashPoint;
     float _currentVelocity = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         _dashPoint = _maxDashPoint;
@@ -25,58 +21,44 @@ public class Clush : MonoBehaviour
         _slider.value = _maxDashPoint;
     }
 
-    // Update is called once per frame
-    //async void Update()
-    //{
-    //    if (Input.GetKey(KeyCode.Mouse0))
-    //    {
-    //        _click = true; 
-    //    }
-    //}
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
+        // クリックされたら止める
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             _click = true;
+            Debug.Log("止まった値: " + _slider.value);
         }
 
+        // 止まってないときだけ上下運動
         if (_click == false)
         {
-
             if (_onOff == true)
             {
-                _upDown += 0.1f;
+                _dashPoint += 0.1f;
             }
             else
             {
-                _upDown -= 0.1f;
+                _dashPoint -= 0.1f;
             }
 
-            if (_upDown >= 1f)
-            {
-                _onOff = true;
-            }
-            if (_upDown <= 0f)
+            if (_dashPoint >= _maxDashPoint)
             {
                 _onOff = false;
             }
-        }
-        else
-        {
-            
-        }
+            if (_dashPoint <= 0f)
+            {
+                _onOff = true;
+            }
 
-        float currentDashPT = Mathf.SmoothDamp(_slider.value, _dashPoint, ref _currentVelocity, 10 * Time.deltaTime);
-        _slider.value = currentDashPT;
-
-        if (Input.GetKeyDown(KeyCode.E) && _dashPoint < _maxDashPoint)
-        {
-            _dashPoint++;
-        }
-
-        else if (Input.GetKeyDown(KeyCode.Q) && _dashPoint > 0)
-        {
-            _dashPoint--;
+            // スムーズに移動
+            float currentDashPT = Mathf.SmoothDamp(
+                _slider.value,
+                _dashPoint,
+                ref _currentVelocity,
+                0.3f // ← スムーズさ(秒) ここを調整
+            );
+            _slider.value = currentDashPT;
         }
     }
 }
