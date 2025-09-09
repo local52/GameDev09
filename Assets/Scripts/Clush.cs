@@ -17,6 +17,10 @@ public class Clush : MonoBehaviour
     float _dashPoint;
     float _currentVelocity = 0;
 
+    // ★ 追加
+    private int _stopCount = 0;       // 停止した回数
+    private float _totalValue = 0f;   // 5回分の合計値
+
     void Start()
     {
         _dashPoint = _maxDashPoint;
@@ -24,7 +28,6 @@ public class Clush : MonoBehaviour
         _slider.value = _maxDashPoint;
         _anim = GetComponent<Animator>();
 
-        // 最初はひび割れ無し
         if (_crackImage != null)
         {
             _crackImage.sprite = _crackSprites[0];
@@ -33,18 +36,34 @@ public class Clush : MonoBehaviour
 
     void FixedUpdate()
     {
-        // クリックされたら止める
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             _click = true;
+
             Debug.Log("止まった値: " + _slider.value);
-            _anim.SetTrigger("Attack"); // Animator の Trigger を呼ぶ
+            _anim.SetTrigger("Attack");
 
+            // ★ 合計に加算 & 回数カウント
+            _totalValue += _slider.value;
+            _stopCount++;
 
-            ShowCrack(_slider.value);
+            if (_stopCount >= 5)
+            {
+                // 5回分の合計値から判定
+                ShowCrack(_totalValue);
+
+                Debug.Log("合計値: " + _totalValue);
+
+                // リセット（必要なら）
+                _stopCount = 0;
+                _totalValue = 0f;
+            }
+
+            // 次の上下運動を再開できるように
+            _click = false;
         }
 
-        // 止まってないときだけ上下運動
+        // スライダーの上下運動（クリック中断してない時だけ）
         if (_click == false)
         {
             if (_onOff == true)
@@ -65,7 +84,6 @@ public class Clush : MonoBehaviour
                 _onOff = true;
             }
 
-            // スムーズに移動
             float currentDashPT = Mathf.SmoothDamp(
                 _slider.value,
                 _dashPoint,
@@ -76,19 +94,23 @@ public class Clush : MonoBehaviour
         }
     }
 
-    void ShowCrack(float value)
+    // ★ 合計値で判定するように変更
+    void ShowCrack(float total)
     {
         if (_crackImage == null || _crackSprites.Length < 4) return;
 
-        if (value < 0.2f)
+        // 5回分の合計値 → 平均値にした方が調整しやすい
+        float avg = total / 5f;
+
+        if (avg < 0.2f)
         {
             _crackImage.sprite = _crackSprites[0]; // なし
         }
-        else if (value < 0.5f)
+        else if (avg < 0.5f)
         {
             _crackImage.sprite = _crackSprites[1]; // 小
         }
-        else if (value < 0.75f)
+        else if (avg < 0.75f)
         {
             _crackImage.sprite = _crackSprites[2]; // 中
         }
