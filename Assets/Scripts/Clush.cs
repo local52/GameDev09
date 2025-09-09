@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,17 +10,17 @@ public class Clush : MonoBehaviour
     private bool _click = false;
 
     [SerializeField] Slider _slider;
-    [SerializeField] Image _crackImage;   // ひび割れ表示用
+    [SerializeField] Image _crackImage;      // ひび割れ表示用
     [SerializeField] Sprite[] _crackSprites; // 0=なし, 1=小, 2=中, 3=大
-    [SerializeField] GameObject _player; // プレイヤーオブジェクト
-    [SerializeField] Animator _anim; // プレイヤーの移動アニメーション
+    [SerializeField] GameObject _player;     // プレイヤーオブジェクト
+    [SerializeField] Animator _anim;         // プレイヤーの移動アニメーション
+    [SerializeField] Text _text;        //テキスト表示用のUIテキスト
 
     public float _maxDashPoint = 1;
 
     float _dashPoint;
     float _currentVelocity = 0;
 
-    // ★ 追加
     private int _stopCount = 0;       // 停止した回数
     private float _totalValue = 0f;   // 5回分の合計値
 
@@ -32,57 +35,54 @@ public class Clush : MonoBehaviour
         {
             _crackImage.sprite = _crackSprites[0];
         }
+
+        if (_text != null)
+        {
+            _text.text = "粛清準備完了";
+        }
+    }
+
+    void Update()
+    {
+        // 入力は Update で検知
+        if (Input.GetKeyDown(KeyCode.Mouse0) && _stopCount < 5)
+        {
+            _click = true;
+
+            Debug.Log("粛清値: " + _slider.value);
+            if (_text != null)
+                _text.text = "粛清値: " + _slider.value.ToString("F2");
+
+            _anim.SetTrigger("Attack");
+
+            _totalValue += _slider.value;
+            _stopCount++;
+
+            if (_stopCount == 5) // ★ ちょうど5回目で判定
+            {
+                ShowCrack(_totalValue);
+
+                Debug.Log("合計値: " + _totalValue);
+                if (_text != null)
+                    _text.text = "合計値: " + _totalValue.ToString("F2");
+            }
+
+            _click = false;
+        }
     }
 
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _click = true;
-
-            Debug.Log("止まった値: " + _slider.value);
-            _anim.SetTrigger("Attack");
-
-            // ★ 合計に加算 & 回数カウント
-            _totalValue += _slider.value;
-            _stopCount++;
-
-            if (_stopCount >= 5)
-            {
-                // 5回分の合計値から判定
-                ShowCrack(_totalValue);
-
-                Debug.Log("合計値: " + _totalValue);
-
-                // リセット（必要なら）
-                _stopCount = 0;
-                _totalValue = 0f;
-            }
-
-            // 次の上下運動を再開できるように
-            _click = false;
-        }
-
-        // スライダーの上下運動（クリック中断してない時だけ）
-        if (_click == false)
+        // スライダーの上下運動
+        if (_click == false && _stopCount < 5) // ★ 5回終わったら止める
         {
             if (_onOff == true)
-            {
                 _dashPoint += 0.1f;
-            }
             else
-            {
                 _dashPoint -= 0.1f;
-            }
 
-            if (_dashPoint >= _maxDashPoint)
-            {
-                _onOff = false;
-            }
-            if (_dashPoint <= 0f)
-            {
-                _onOff = true;
-            }
+            if (_dashPoint >= _maxDashPoint) _onOff = false;
+            if (_dashPoint <= 0f) _onOff = true;
 
             float currentDashPT = Mathf.SmoothDamp(
                 _slider.value,
@@ -94,13 +94,11 @@ public class Clush : MonoBehaviour
         }
     }
 
-    // ★ 合計値で判定するように変更
     void ShowCrack(float total)
     {
         if (_crackImage == null || _crackSprites.Length < 4) return;
 
-        // 5回分の合計値 → 平均値にした方が調整しやすい
-        float avg = total / 5f;
+        float avg = total / 5f; // ★ 平均値で判定
 
         if (avg < 0.2f)
         {
