@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
     }
-
+    private void Update()
+    {
+        Score = KillCount * 100;
+    }
 }
 

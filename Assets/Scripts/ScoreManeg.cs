@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ScoreManeg : MonoBehaviour
 {
+    float _score = 0;
     // Start is called before the first frame update
     void Start()
     {
-        GameManager.Instance.Score = 0;// スコア初期化
+        _score = GameManager.Instance.Score;// スコア初期化
     }
 
     // Update is called once per frame
