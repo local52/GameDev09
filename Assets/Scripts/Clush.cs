@@ -14,7 +14,8 @@ public class Clush : MonoBehaviour
     [SerializeField] Sprite[] _crackSprites; // 0=なし, 1=小, 2=中, 3=大
     [SerializeField] GameObject _player;     // プレイヤーオブジェクト
     [SerializeField] Animator _anim;         // プレイヤーの移動アニメーション
-    [SerializeField] Text _text;        //テキスト表示用のUIテキスト
+    [SerializeField] Text _text;             // テキスト表示用のUIテキスト
+    [SerializeField] ScoreManeg _scoreManeg; // ★ スコア管理スクリプトを参照
 
     public float _maxDashPoint = 1;
 
@@ -39,6 +40,12 @@ public class Clush : MonoBehaviour
         if (_text != null)
         {
             _text.text = "粛清準備完了";
+        }
+
+        // ★ もしインスペクタで設定してなければ自動取得
+        if (_scoreManeg == null)
+        {
+            _scoreManeg = FindObjectOfType<ScoreManeg>();
         }
     }
 
@@ -65,6 +72,14 @@ public class Clush : MonoBehaviour
                 Debug.Log("合計値: " + _totalValue);
                 if (_text != null)
                     _text.text = "合計値: " + _totalValue.ToString("F2");
+
+                // ★ スコア加算処理をここで実行
+                if (_scoreManeg != null)
+                {
+                    int addScore = Mathf.RoundToInt(_totalValue * 100); // 合計値を100倍して加算など
+                    _scoreManeg._score += addScore;
+                    Debug.Log("スコア加算: " + addScore);
+                }
             }
 
             _click = false;

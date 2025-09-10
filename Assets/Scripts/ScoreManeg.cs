@@ -1,10 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ScoreManeg : MonoBehaviour
 {
-    float _score = 0;
+    [SerializeField] public float _score = 0;
+    
+
     // Start is called before the first frame update
     void Start()
     {
