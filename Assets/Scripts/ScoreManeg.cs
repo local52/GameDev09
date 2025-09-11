@@ -1,22 +1,24 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ScoreManeg : MonoBehaviour
 {
-    [SerializeField] public float _score = 0;
-    
+    // ★ staticでどこからでも参照可能
+    public static float Score = 0;
 
-    // Start is called before the first frame update
+    [SerializeField] public float _score = 0;
+
     void Start()
     {
-        _score = GameManager.Instance.Score;// スコア初期化
+        // ★ GameManager のスコアを引き継ぎ
+        _score = GameManager.Instance.Score;
+        Score = _score;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddScore(float value)
     {
-        
+        _score += value;
+        Score = _score; // staticにも反映
     }
 }

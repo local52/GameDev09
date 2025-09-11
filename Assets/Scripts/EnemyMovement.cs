@@ -10,7 +10,6 @@ public class EnemyMovement : MonoBehaviour
     float m_goTime = 0f; // ’e‚ÌoŒ»ŠÔ‚ğŠÇ—‚·‚é‚½‚ß‚Ì•Ï”
     
 
-    private float _totalValue = 0f;   // 5‰ñ•ª‚Ì‡Œv’l
     // Start is called before the first frame update
     void Start()
     {
