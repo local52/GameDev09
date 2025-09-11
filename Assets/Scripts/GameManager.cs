@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        Score = KillCount * 100;
     }
 }
 

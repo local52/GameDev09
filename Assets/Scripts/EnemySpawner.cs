@@ -51,15 +51,15 @@ public class EnemySpawner : MonoBehaviour
         // ÉoÅ[ÉWÉáÉìÇ≤Ç∆ÇÃä‘äuê›íË
         if (_versions == 0)
         {
-            spawnInterval = _1_Interval; // ó·: 10ïb
+            spawnInterval = _1_Interval; 
         }
         else if (_versions == 1)
         {
-            spawnInterval = _2_Interval; // ó·: 5ïb
+            spawnInterval = _2_Interval; 
         }
         else if (_versions == 2)
         {
-            spawnInterval = _3_Interval; // ó·: 2ïb
+            spawnInterval = _3_Interval; 
         }
         else
         {

@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] float m_speed = 1f;
     [SerializeField] float m_time = 0f;
     float m_goTime = 0f; // 弾の出現時間を管理するための変数
+    
+
+    private float _totalValue = 0f;   // 5回分の合計値
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -34,8 +38,7 @@ public class EnemyMovement : MonoBehaviour
             rb.velocity = v;
             m_goTime = 0f; // タイマーをリセット
         }
-
-
+        
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -43,6 +46,7 @@ public class EnemyMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject); // 自身を破壊
+
         }
     }
 }

@@ -1,62 +1,72 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-/// <summary>
-/// “G‚Ì’e‚ğ§Œä‚·‚éƒRƒ“ƒ|[ƒlƒ“ƒg
-/// oŒ»‚ÌƒvƒŒƒCƒ„[‚ÌˆÊ’u‚ğŒŸo‚µ‚ÄA‚»‚Ì•ûŒü‚É“™‘¬’¼ü‰^“®‚·‚é
-/// </summary>
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerBulletController : MonoBehaviour
 {
     [SerializeField] float m_speed = 1f;
     [SerializeField] float m_time = 0f;
-    
+    [SerializeField] ScoreManeg _scoreManeg; // â˜… ã‚¹ã‚³ã‚¢ç®¡ç†ã‚¹ã‚¯ãƒªãƒ—ãƒˆã‚’å‚ç…§
 
     void Start()
     {
-        // ‘¬“xƒxƒNƒgƒ‹‚ğ‹‚ß‚é
+        // å¼¾ã®é€²è¡Œæ–¹å‘ã‚’æ±ºå®š
         GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
+        Rigidbody rb = GetComponent<Rigidbody>();
+
         if (enemy != null)
         {
-            Vector3 v = enemy.transform.position - this.transform.position;
-            v = v.normalized * m_speed;
-            Rigidbody rb1 = GetComponent<Rigidbody>();
-            rb1.velocity = v;
+            Vector3 v = (enemy.transform.position - this.transform.position).normalized * m_speed;
+            rb.velocity = v;
         }
-        if (enemy == null)
+        else
         {
-            Vector3 vector3 = Vector3.forward;
-            vector3 = vector3.normalized * m_speed;
-            Rigidbody rb2 = GetComponent<Rigidbody>();
-            rb2.velocity = vector3;
+            rb.velocity = Vector3.forward * m_speed;
         }
 
+        // ScoreManeg ã‚’ã‚·ãƒ¼ãƒ³ã‹ã‚‰æ¢ã™
+        if (_scoreManeg == null)
+        {
+            _scoreManeg = FindObjectOfType<ScoreManeg>();
+            //if (_scoreManeg == null)
+            //{
+            //    Debug.LogError("âš  ScoreManeg ãŒã‚·ãƒ¼ãƒ³ã«å­˜åœ¨ã—ã¾ã›ã‚“ï¼");
+            //}
+            //else
+            //{
+            //    Debug.Log("âœ… ScoreManeg ã‚’å–å¾—ã—ã¾ã—ãŸ");
+            //}
+        }
     }
+
     void OnCollisionEnter(Collision collision)
     {
-        // ƒ^ƒO‚ª "KillWall" ‚Ü‚½‚Í ©g‚ª "Enemy" ƒ^ƒO‚Ìê‡‚É©g‚ğ”j‰ó
+        // KillWall ã«å½“ãŸã£ãŸã‚‰æ¶ˆãˆã‚‹
         if (collision.gameObject.CompareTag("KillWall"))
         {
             Destroy(gameObject);
         }
+
+        // Enemy ã«å½“ãŸã£ãŸã‚‰å‡¦ç†
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
-            GameManager.Instance.KillCount += 1; // ‘S‘Ì‚ÌƒLƒ‹”‚ğ‰ÁZ
+
+            GameManager.Instance.KillCount += 1;
+            if (_scoreManeg != null)
+            {
+                _scoreManeg._score += 100; // â˜… 1ã‚­ãƒ« = 100ç‚¹
+            }
         }
-
     }
-
 
     void Update()
     {
         m_time += Time.deltaTime;
-        if(m_time >= 2)
+        if (m_time >= 2)
         {
             Destroy(gameObject);
         }
-
     }
 }
