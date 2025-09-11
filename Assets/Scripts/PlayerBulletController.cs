@@ -56,7 +56,7 @@ public class PlayerBulletController : MonoBehaviour
             GameManager.Instance.KillCount += 1;
             if (_scoreManeg != null)
             {
-                _scoreManeg._score += 100; // ★ 1キル = 100点
+                ScoreManeg.Score += 100; // ★ 1キル = 100点
             }
         }
     }

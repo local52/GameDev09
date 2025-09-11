@@ -89,6 +89,8 @@ public class PlayerMovement : PlayerBulletController
         if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject); // é©êgÇîjâÛ
+            FindObjectOfType<PlayerDeathSceneLoader>().OnPlayerDeath();
+
         }
     }
 

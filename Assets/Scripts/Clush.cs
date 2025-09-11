@@ -77,7 +77,7 @@ public class Clush : MonoBehaviour
                 if (_scoreManeg != null)
                 {
                     int addScore = Mathf.RoundToInt(_totalValue * 100); // 合計値を100倍して加算など
-                    _scoreManeg._score += addScore;
+                    ScoreManeg.Score += addScore;
                     Debug.Log("スコア加算: " + addScore);
                 }
             }
