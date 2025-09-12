@@ -17,7 +17,7 @@ public class ResultTextController : MonoBehaviour
         // 1つ目のテキスト
         if (resultText1 != null)
         {
-            resultText1.text = "今回の粛清値は " + score.ToString("F0") + " です。";
+            resultText1.text = "ただ今の粛清値は " + score.ToString("F0") + " です。";
         }
 
         // 2つ目のテキスト（スコアに応じて分岐）
