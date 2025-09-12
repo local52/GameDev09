@@ -79,6 +79,7 @@ public class Clush : MonoBehaviour
                     int addScore = Mathf.RoundToInt(_totalValue * 100); // 合計値を100倍して加算など
                     ScoreManeg.Score += addScore;
                     Debug.Log("スコア加算: " + addScore);
+                    FindObjectOfType<PlayerDeathSceneLoader>().OnPlayerDeath();
                 }
             }
 
