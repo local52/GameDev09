@@ -1,28 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JustGuardManager : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
-    void Start()
+    // SemiJust：弾をそのまま跳ね返す
+    public static void SemiJust(GameObject bullet)
     {
+        Rigidbody rb = bullet.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.velocity = -rb.velocity; // 進行方向を反転
+        }
 
+        Debug.Log("Semi Just! Bullet reflected.");
     }
 
-    // Update is called once per frame
-    public void Update()
+    // Just：強化された攻撃に変える
+    public static void Just(GameObject bullet)
     {
-        
-    }
+        Rigidbody rb = bullet.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.velocity = -rb.velocity * 2f; // 速度を2倍にして跳ね返す
+        }
 
-    public static void Just()
-    {
-        
-    }
-    public static void SemiJust()
-    {
-        
+        // 例：見た目を変える
+        bullet.GetComponent<Renderer>().material.color = Color.red;
+
+        Debug.Log("JUST GUARD!! Super reflect!");
     }
 }

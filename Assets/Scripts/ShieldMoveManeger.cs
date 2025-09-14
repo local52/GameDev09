@@ -1,22 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ShieldMoveManeger : MonoBehaviour
 {
-
     private Transform player;
     float _time;
-    // Start is called before the first frame update
+
     void Start()
     {
-        GetComponent<Collider>(); player = GameObject.Find("Player").transform;
+        player = GameObject.Find("Player").transform;
     }
 
-    // Update is called once per frame
     void Update()
     {
         _time += Time.deltaTime;
+
         // プレイヤーに追従
         transform.position = player.position;
 
@@ -24,19 +21,23 @@ public class ShieldMoveManeger : MonoBehaviour
         transform.rotation = Input.GetKey(KeyCode.Space)
             ? Quaternion.Euler(0, -90, 0)
             : Quaternion.Euler(0, 0, 0);
-        if (_time > -0.5 && _time < 0.5)
-        {
-            JustGuardManager.SemiJust();
-        }
-        if (_time > -0.1 && _time < 0.1)
-        {
-            JustGuardManager.Just();
-        }
     }
 
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("EnemyBullet"))
+        {
+            // Just / SemiJust 判定
+            if (_time > -0.1f && _time < 0.1f)
+            {
+                JustGuardManager.Just(other.gameObject);
+            }
+            else if (_time > -0.5f && _time < 0.5f)
+            {
+                JustGuardManager.SemiJust(other.gameObject);
+            }
 
+            // タイミングが外れてたら普通にダメージ受ける、などの処理を入れてもよい
+        }
     }
 }
