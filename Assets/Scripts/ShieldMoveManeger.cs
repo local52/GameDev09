@@ -30,14 +30,17 @@ public class ShieldMoveManeger : MonoBehaviour
             // Just / SemiJust 判定
             if (_time > -0.1f && _time < 0.1f)
             {
-                JustGuardManager.Just(other.gameObject);
+                JustGuardManager.Just(other.gameObject, transform);
             }
             else if (_time > -0.5f && _time < 0.5f)
             {
-                JustGuardManager.SemiJust(other.gameObject);
+                JustGuardManager.SemiJust(other.gameObject, transform);
             }
-
-            // タイミングが外れてたら普通にダメージ受ける、などの処理を入れてもよい
+            else
+            {
+                Debug.Log("Guard failed! Player takes damage.");
+                // プレイヤーにダメージ処理を入れてもOK
+            }
         }
     }
 }

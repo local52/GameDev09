@@ -2,29 +2,26 @@ using UnityEngine;
 
 public class JustGuardManager : MonoBehaviour
 {
-    // SemiJustF’e‚ğ‚»‚Ì‚Ü‚Ü’µ‚Ë•Ô‚·
-    public static void SemiJust(GameObject bullet)
+    // SemiJustF’e‚ğ‚»‚Ì‚Ü‚Ü”½“]
+    public static void SemiJust(GameObject bullet, Transform shield)
     {
-        Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        if (rb != null)
+        var b = bullet.GetComponent<EnemyZldBullet>();
+        if (b != null)
         {
-            rb.velocity = -rb.velocity; // is•ûŒü‚ğ”½“]
+            b.Reflect(-bullet.transform.forward, 1f, Color.white); // is•ûŒü‚ğ”½“]
         }
 
         Debug.Log("Semi Just! Bullet reflected.");
     }
 
     // JustF‹­‰»‚³‚ê‚½UŒ‚‚É•Ï‚¦‚é
-    public static void Just(GameObject bullet)
+    public static void Just(GameObject bullet, Transform shield)
     {
-        Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        if (rb != null)
+        var b = bullet.GetComponent<EnemyZldBullet>();
+        if (b != null)
         {
-            rb.velocity = -rb.velocity * 2f; // ‘¬“x‚ğ2”{‚É‚µ‚Ä’µ‚Ë•Ô‚·
+            b.Reflect(shield.forward, 2f, Color.red); // ‚‚ÌŒü‚«‚É‹­‰»’e‚Æ‚µ‚Ä”ò‚Î‚·
         }
-
-        // —áFŒ©‚½–Ú‚ğ•Ï‚¦‚é
-        bullet.GetComponent<Renderer>().material.color = Color.red;
 
         Debug.Log("JUST GUARD!! Super reflect!");
     }
