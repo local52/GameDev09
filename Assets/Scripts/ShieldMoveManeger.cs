@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ShieldMoveManeger : MonoBehaviour
 {
-    bool _isMove = false;
+
     private Transform player;
+    float _time;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,7 @@ public class ShieldMoveManeger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _time += Time.deltaTime;
         // ƒvƒŒƒCƒ„[‚É’Ç]
         transform.position = player.position;
 
@@ -22,6 +24,14 @@ public class ShieldMoveManeger : MonoBehaviour
         transform.rotation = Input.GetKey(KeyCode.Space)
             ? Quaternion.Euler(0, -90, 0)
             : Quaternion.Euler(0, 0, 0);
+        if (_time > -0.5 && _time < 0.5)
+        {
+            JustGuardManager.SemiJust();
+        }
+        if (_time > -0.1 && _time < 0.1)
+        {
+            JustGuardManager.Just();
+        }
     }
 
 
