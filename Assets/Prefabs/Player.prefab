@@ -434,6 +434,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4822886514994571424}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5519083426357495314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3203920518265740611}
+  m_Layer: 0
+  m_Name: Muzzle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3203920518265740611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519083426357495314}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.61, y: 4.05, z: 2.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5965776377171455284}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5765164292425367770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,6 +1052,7 @@ Transform:
   - {fileID: 8860824353390610868}
   - {fileID: 4532153453181690474}
   - {fileID: 5343214526539238976}
+  - {fileID: 3203920518265740611}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7241807825739209425
@@ -1114,6 +1146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_speed: 1
   m_time: 0
+  _scoreManeg: {fileID: 0}
   speed: 8
   jumpForce: 5
   groundTag: groundTag
@@ -1153,3 +1186,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KillCount: 0
+  Score: 0
