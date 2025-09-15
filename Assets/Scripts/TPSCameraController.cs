@@ -14,6 +14,8 @@ public class TPSCameraController : MonoBehaviour
     float yaw;   // ¶‰E‰ñ“]
     float pitch; // ã‰º‰ñ“]
 
+
+
     private void Awake()
     {
         if (player == null)

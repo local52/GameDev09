@@ -9,6 +9,9 @@ TagManager:
   - Enemy
   - KillWall
   - Bullet
+  - EnemyBullet
+  - Wall
+  - Shield
   layers:
   - Default
   - TransparentFX

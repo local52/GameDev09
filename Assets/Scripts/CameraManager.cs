@@ -56,15 +56,20 @@ public class CameraManager : MonoBehaviour
 
     void SwitchToLockOn()
     {
+        Debug.Log("Switching to LockOn Camera");
         if (tpsCamera != null) tpsCamera.enabled = false;
         if (lockOnCamera != null) lockOnCamera.enabled = true;
     }
 
     void SwitchToTPS()
     {
+        Debug.Log("Switching to TPS Camera");
         if (tpsCamera != null) tpsCamera.enabled = true;
         if (lockOnCamera != null) lockOnCamera.enabled = false;
     }
+
+
+    
 
     GameObject FindClosestEnemy()
     {
