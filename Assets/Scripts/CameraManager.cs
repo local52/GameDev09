@@ -29,7 +29,7 @@ public class CameraManager : MonoBehaviour
     void Update()
     {
         // ロックオン切替（Tabキー）
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (currentTarget == null)
             {

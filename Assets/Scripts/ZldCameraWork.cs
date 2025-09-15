@@ -9,6 +9,15 @@ public class LockOnCamera : MonoBehaviour
 
     Transform lockTarget;
 
+    private void Awake()
+    {
+        if (player == null)
+        {
+            var p = GameObject.FindWithTag("Player");
+            if (p != null) player = p.transform;
+        }
+        if (player == null) Debug.LogError("TPSCameraController: player が見つかりません。Player に Tag=\"Player\" を付けるか、Inspectorでセットしてください。");
+    }
     public void SetTarget(Transform target)
     {
         lockTarget = target;

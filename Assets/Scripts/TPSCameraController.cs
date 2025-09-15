@@ -14,6 +14,15 @@ public class TPSCameraController : MonoBehaviour
     float yaw;   // 左右回転
     float pitch; // 上下回転
 
+    private void Awake()
+    {
+        if (player == null)
+        {
+            var p = GameObject.FindWithTag("Player");
+            if (p != null) player = p.transform;
+        }
+        if (player == null) Debug.LogError("TPSCameraController: player が見つかりません。Player に Tag=\"Player\" を付けるか、Inspectorでセットしてください。");
+    }
     void Start()
     {
         // 初期角度を設定
