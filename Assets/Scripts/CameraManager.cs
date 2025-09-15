@@ -2,26 +2,37 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    [SerializeField] TPSCameraController tpsCamera;   // TPSカメラ制御
-    [SerializeField] LockOnCameraController lockOnCamera; // ロックオンカメラ制御
+    [SerializeField] TPSCameraController tpsCamera;   // TPSカメラ制御（必ずアタッチ＆参照設定）
+    [SerializeField] LockOnCamera lockOnCamera;      // ロックオンカメラ（クラス名とファイル名を一致させてください）
+    [SerializeField] Transform player;               // プレイヤーTransform（Inspectorでセット、未設定なら自動検索）
 
     Transform currentTarget; // ロックオン対象の敵
 
     void Start()
     {
-        // 最初はTPSカメラのみ有効
-        tpsCamera.enabled = true;
-        lockOnCamera.enabled = false;
+        // プレイヤー自動検索（Inspectorにセットしていないときのフォールバック）
+        if (player == null)
+        {
+            var p = GameObject.FindWithTag("Player");
+            if (p != null) player = p.transform;
+        }
+
+        if (tpsCamera == null) Debug.LogError("CameraManager: tpsCamera が割り当てられていません。Inspectorでセットしてください。");
+        if (lockOnCamera == null) Debug.LogError("CameraManager: lockOnCamera が割り当てられていません。Inspectorでセットしてください。");
+        if (player == null) Debug.LogError("CameraManager: player が見つかりません。Player に Tag=\"Player\" を付けるか、Inspectorでセットしてください。");
+
+        // 最初はTPSのみ有効
+        if (tpsCamera != null) tpsCamera.enabled = true;
+        if (lockOnCamera != null) lockOnCamera.enabled = false;
     }
 
     void Update()
     {
-        // ロックオン切替（例：Tabキー）
+        // ロックオン切替（Tabキー）
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             if (currentTarget == null)
             {
-                // 近い敵を探す
                 GameObject enemy = FindClosestEnemy();
                 if (enemy != null)
                 {
@@ -31,14 +42,13 @@ public class CameraManager : MonoBehaviour
             }
             else
             {
-                // ロック解除
                 currentTarget = null;
                 SwitchToTPS();
             }
         }
 
-        // ロックオン中はターゲット更新
-        if (currentTarget != null && lockOnCamera.enabled)
+        // ロックオン中はターゲットをlockOnCameraに渡す
+        if (currentTarget != null && lockOnCamera != null && lockOnCamera.enabled)
         {
             lockOnCamera.SetTarget(currentTarget);
         }
@@ -46,14 +56,14 @@ public class CameraManager : MonoBehaviour
 
     void SwitchToLockOn()
     {
-        tpsCamera.enabled = false;
-        lockOnCamera.enabled = true;
+        if (tpsCamera != null) tpsCamera.enabled = false;
+        if (lockOnCamera != null) lockOnCamera.enabled = true;
     }
 
     void SwitchToTPS()
     {
-        tpsCamera.enabled = true;
-        lockOnCamera.enabled = false;
+        if (tpsCamera != null) tpsCamera.enabled = true;
+        if (lockOnCamera != null) lockOnCamera.enabled = false;
     }
 
     GameObject FindClosestEnemy()
@@ -61,7 +71,8 @@ public class CameraManager : MonoBehaviour
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject closest = null;
         float minDist = Mathf.Infinity;
-        Vector3 pos = tpsCamera.Player.position;
+        if (player == null) return null;
+        Vector3 pos = player.position;
 
         foreach (GameObject e in enemies)
         {
