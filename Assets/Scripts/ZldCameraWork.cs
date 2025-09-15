@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LockOnCamera : MonoBehaviour
+public class LockOnCameraController : MonoBehaviour
 {
     [SerializeField] Transform player;   // プレイヤー
     [SerializeField] float distance = 5f; // プレイヤーからの距離
