@@ -12,6 +12,7 @@ TagManager:
   - EnemyBullet
   - Wall
   - Shield
+  - Target
   layers:
   - Default
   - TransparentFX
