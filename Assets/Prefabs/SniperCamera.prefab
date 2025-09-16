@@ -111,6 +111,7 @@ MonoBehaviour:
   tpsCamera: {fileID: 4206134543539371361}
   sniperCamera: {fileID: 6259499491816539592}
   sniperShooter: {fileID: 3962112238158990276}
+  sniperUIManager: {fileID: 0}
 --- !u!114 &6259499491816539592
 MonoBehaviour:
   m_ObjectHideFlags: 0
