@@ -1,13 +1,16 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI; // ← UI.Text を使うなら必要（TextMeshProを使うなら using TMPro; に変える）
 
 public class SniperShooter : MonoBehaviour
 {
-    [SerializeField] Camera sniperCamera;      // SniperCameraController�����Ă�J����
-    [SerializeField] GameObject hitEffect;     // ���e�G�t�F�N�g
-    [SerializeField] float checkRadius = 3f;   // ���蔼�a
-    [SerializeField] LayerMask hitMask;        // Raycast�p�}�X�N
+    [SerializeField] Camera sniperCamera;      // SniperCameraControllerがついてるカメラ
+    [SerializeField] GameObject hitEffect;     // 着弾エフェクト
+    [SerializeField] float checkRadius = 3f;   // 判定半径
+    [SerializeField] LayerMask hitMask;        // Raycast用マスク
+    [SerializeField] float scoreValue = 10f;   // 🔽 ヒット時に加算するスコア（インスペクターで設定可能）
+    [SerializeField] Text scoreText;           // 🔽 スコア表示用UI（TextMeshProを使うなら TextMeshProUGUI に変える）
 
-    bool sniperModeActive = false; // �J�����}�l�[�W������؂�ւ��ʒm�����
+    bool sniperModeActive = false; // カメラマネージャから切り替え通知される
 
     public void SetSniperMode(bool active)
     {
@@ -16,11 +19,17 @@ public class SniperShooter : MonoBehaviour
 
     void Update()
     {
-        if (!sniperModeActive) return; // TPS���[�h�̂Ƃ��͌��ĂȂ�
+        if (!sniperModeActive) return; // TPSモードのときは撃てない
 
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
+        }
+
+        // 🔽 毎フレームUIにスコアを反映
+        if (scoreText != null)
+        {
+            scoreText.text = $"Score: {ScoreManeg.Score}";
         }
     }
 
@@ -42,6 +51,9 @@ public class SniperShooter : MonoBehaviour
                 if (col.CompareTag("Target"))
                 {
                     Debug.Log($"Target hit in area: {col.name}");
+
+                    // 🔽 ScoreManegを使ってスコア加算
+                    ScoreManeg.Score += scoreValue;
                 }
             }
         }
