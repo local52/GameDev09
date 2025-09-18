@@ -831,7 +831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Next\u7C9B\u6E05"
+  m_Text: "\u7C9B\u6E05\u7D50\u679C"
 --- !u!222 &468785291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1311,8 +1311,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowScoreThreshold: 30
   highScoreThreshold: 70
-  lowScoreScene: 
-  midScoreScene: 
+  lowScoreScene: FireScene
+  midScoreScene: HotScene
   highScoreScene: WinScene
 --- !u!1001 &1826991398
 PrefabInstance:
