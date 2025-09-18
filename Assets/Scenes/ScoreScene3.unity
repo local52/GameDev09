@@ -711,7 +711,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1694822741}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ButtonSceneLoader, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 1
@@ -1258,7 +1258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1694822743}
   - component: {fileID: 1694822742}
-  - component: {fileID: 1694822741}
+  - component: {fileID: 1694822744}
   m_Layer: 0
   m_Name: ScoreManeg
   m_TagString: Untagged
@@ -1266,19 +1266,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1694822741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694822740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7effa005281a5bc419c9c96425187745, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: ClushScene
 --- !u!114 &1694822742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1310,6 +1297,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694822744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694822740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e6e99dfd154284cb480dc46fe210da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lowScoreThreshold: 30
+  highScoreThreshold: 70
+  lowScoreScene: 
+  midScoreScene: 
+  highScoreScene: WinScene
 --- !u!1001 &1826991398
 PrefabInstance:
   m_ObjectHideFlags: 0
