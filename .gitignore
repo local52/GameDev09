@@ -7992,3 +7992,79 @@ Assets/vrbn_studios/2023_A/USA/buildings/prefabs/B00905.prefab
 Assets/vrbn_studios/2023_A/USA/buildings/prefabs/B00905.prefab.meta
 Assets/vrbn_studios/2023_A/USA/buildings/prefabs/B00906.prefab
 Assets/vrbn_studios/2023_A/USA/buildings/prefabs/B00906.prefab.meta
+Assets/Hand Painted Grass  Texture.meta
+Assets/TerrainScanner.meta
+Assets/Fries and Seagull/Interior 01/Prefabs/Aka.mat
+Assets/Fries and Seagull/Interior 01/Prefabs/Aka.mat.meta
+Assets/Hand Painted Grass  Texture/Material.meta
+Assets/Hand Painted Grass  Texture/Scene.meta
+Assets/Hand Painted Grass  Texture/Texture.meta
+Assets/Hand Painted Grass  Texture/Material/Gtass_mobile.mat
+Assets/Hand Painted Grass  Texture/Material/Gtass_mobile.mat.meta
+Assets/Hand Painted Grass  Texture/Material/Gtass_normal.mat
+Assets/Hand Painted Grass  Texture/Material/Gtass_normal.mat.meta
+Assets/Hand Painted Grass  Texture/Scene/Hand Painted Grass Texture.unity
+Assets/Hand Painted Grass  Texture/Scene/Hand Painted Grass Texture.unity.meta
+Assets/Hand Painted Grass  Texture/Scene/Hand Painted Grass TextureSettings.lighting
+Assets/Hand Painted Grass  Texture/Scene/Hand Painted Grass TextureSettings.lighting.meta
+Assets/Hand Painted Grass  Texture/Texture/Grass_Ambient_Occlusion.png
+Assets/Hand Painted Grass  Texture/Texture/Grass_Ambient_Occlusion.png.meta
+Assets/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png
+Assets/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png.meta
+Assets/Hand Painted Grass  Texture/Texture/Grass_Height.png
+Assets/Hand Painted Grass  Texture/Texture/Grass_Height.png.meta
+Assets/Hand Painted Grass  Texture/Texture/Grass_Normal.png
+Assets/Hand Painted Grass  Texture/Texture/Grass_Normal.png.meta
+Assets/Hand Painted Grass  Texture/Texture/Grass_Roughness.png
+Assets/Hand Painted Grass  Texture/Texture/Grass_Roughness.png.meta
+Assets/TerrainScanner/CameraEffect.cs
+Assets/TerrainScanner/CameraEffect.cs.meta
+Assets/TerrainScanner/Demo.meta
+Assets/TerrainScanner/READ_ME.pdf
+Assets/TerrainScanner/READ_ME.pdf.meta
+Assets/TerrainScanner/RevealEffectPost.shader
+Assets/TerrainScanner/RevealEffectPost.shader.meta
+Assets/TerrainScanner/Demo/Audio.meta
+Assets/TerrainScanner/Demo/DEMO_ConstantScanner.unity
+Assets/TerrainScanner/Demo/DEMO_ConstantScanner.unity.meta
+Assets/TerrainScanner/Demo/DEMO_TerrainScanner.unity
+Assets/TerrainScanner/Demo/DEMO_TerrainScanner.unity.meta
+Assets/TerrainScanner/Demo/Materials.meta
+Assets/TerrainScanner/Demo/Outline.shader
+Assets/TerrainScanner/Demo/Outline.shader.meta
+Assets/TerrainScanner/Demo/Scripts.meta
+Assets/TerrainScanner/Demo/Textures.meta
+Assets/TerrainScanner/Demo/Audio/sensorDetectedBeep.wav
+Assets/TerrainScanner/Demo/Audio/sensorDetectedBeep.wav.meta
+Assets/TerrainScanner/Demo/Audio/sensorDismissBeep.wav
+Assets/TerrainScanner/Demo/Audio/sensorDismissBeep.wav.meta
+Assets/TerrainScanner/Demo/Audio/sensorStartV2.mp3
+Assets/TerrainScanner/Demo/Audio/sensorStartV2.mp3.meta
+Assets/TerrainScanner/Demo/Materials/BasicMaterial.mat
+Assets/TerrainScanner/Demo/Materials/BasicMaterial.mat.meta
+Assets/TerrainScanner/Demo/Materials/CameraEffects.meta
+Assets/TerrainScanner/Demo/Materials/RevealedObject.mat
+Assets/TerrainScanner/Demo/Materials/RevealedObject.mat.meta
+Assets/TerrainScanner/Demo/Materials/RevealedObjectConstant.mat
+Assets/TerrainScanner/Demo/Materials/RevealedObjectConstant.mat.meta
+Assets/TerrainScanner/Demo/Materials/CameraEffects/RevealPost.mat
+Assets/TerrainScanner/Demo/Materials/CameraEffects/RevealPost.mat.meta
+Assets/TerrainScanner/Demo/Materials/CameraEffects/RevealPostConstant.mat
+Assets/TerrainScanner/Demo/Materials/CameraEffects/RevealPostConstant.mat.meta
+Assets/TerrainScanner/Demo/Scripts/ConstantScanner.meta
+Assets/TerrainScanner/Demo/Scripts/Controller.meta
+Assets/TerrainScanner/Demo/Scripts/TerrainScanner.meta
+Assets/TerrainScanner/Demo/Scripts/ConstantScanner/ConstantSensor.cs
+Assets/TerrainScanner/Demo/Scripts/ConstantScanner/ConstantSensor.cs.meta
+Assets/TerrainScanner/Demo/Scripts/ConstantScanner/ConstantSensorObject.cs
+Assets/TerrainScanner/Demo/Scripts/ConstantScanner/ConstantSensorObject.cs.meta
+Assets/TerrainScanner/Demo/Scripts/Controller/Move.cs
+Assets/TerrainScanner/Demo/Scripts/Controller/Move.cs.meta
+Assets/TerrainScanner/Demo/Scripts/TerrainScanner/SensorDetector.cs
+Assets/TerrainScanner/Demo/Scripts/TerrainScanner/SensorDetector.cs.meta
+Assets/TerrainScanner/Demo/Scripts/TerrainScanner/SensorObject.cs
+Assets/TerrainScanner/Demo/Scripts/TerrainScanner/SensorObject.cs.meta
+Assets/TerrainScanner/Demo/Textures/T_Random_06.png
+Assets/TerrainScanner/Demo/Textures/T_Random_06.png.meta
+Assets/TerrainScanner/Demo/Textures/wireframelines.png
+Assets/TerrainScanner/Demo/Textures/wireframelines.png.meta
