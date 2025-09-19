@@ -149,6 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_speed: 80
   m_time: 0
+  _scoreManeg: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 1c6c129b667671742ac3ee7ad0be04da, type: 3}
 --- !u!96 &2285473117695524644
 TrailRenderer:
   serializedVersion: 3

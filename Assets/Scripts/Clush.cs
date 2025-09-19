@@ -16,6 +16,7 @@ public class Clush : MonoBehaviour
     [SerializeField] Animator _anim;         // プレイヤーの移動アニメーション
     [SerializeField] Text _text;             // テキスト表示用のUIテキスト
     [SerializeField] ScoreManeg _scoreManeg; // ★ スコア管理スクリプトを参照
+    [SerializeField] AudioClip ClushSound;   // ダッシュ音
 
     public float _maxDashPoint = 1;
 
@@ -55,6 +56,10 @@ public class Clush : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) && _stopCount < 5)
         {
             _click = true;
+            if(ClushSound != null)
+            {
+                AudioSource.PlayClipAtPoint(ClushSound, this.transform.position);
+            }
 
             Debug.Log("粛清値: " + _slider.value);
             if (_text != null)

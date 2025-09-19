@@ -9,6 +9,7 @@ public class SniperShooter : MonoBehaviour
     [SerializeField] LayerMask hitMask;        // Raycast用マスク
     [SerializeField] float scoreValue = 10f;   // 🔽 ヒット時に加算するスコア（インスペクターで設定可能）
     [SerializeField] Text scoreText;           // 🔽 スコア表示用UI（TextMeshProを使うなら TextMeshProUGUI に変える）
+    [SerializeField] AudioClip shootSound;   // 発射音
 
     bool sniperModeActive = false; // カメラマネージャから切り替え通知される
 
@@ -24,6 +25,10 @@ public class SniperShooter : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
+            if (shootSound != null)
+            {
+                AudioSource.PlayClipAtPoint(shootSound, sniperCamera.transform.position);
+            }
         }
 
         // 🔽 毎フレームUIにスコアを反映

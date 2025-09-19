@@ -15,6 +15,7 @@ public class PlayerMuzzle : MonoBehaviour
     [Header("召喚位置")]
     [SerializeField] public Transform spawnPoint;
 
+
     private float timer;
 
     void Update()
@@ -27,6 +28,7 @@ public class PlayerMuzzle : MonoBehaviour
             {
                 Spawn();
                 timer = 0f;// スペースキーが押されたときに召喚
+                
             }
         }
     }

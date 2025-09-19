@@ -8,12 +8,17 @@ public class PlayerBulletController : MonoBehaviour
     [SerializeField] float m_speed = 1f;
     [SerializeField] float m_time = 0f;
     [SerializeField] ScoreManeg _scoreManeg; // ★ スコア管理スクリプトを参照
+    [SerializeField] AudioClip shootSound;   // 発射音
 
     void Start()
     {
         // 弾の進行方向を決定
         GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
         Rigidbody rb = GetComponent<Rigidbody>();
+        if(shootSound != null)
+        {
+            AudioSource.PlayClipAtPoint(shootSound, this.transform.position);
+        }
 
         if (enemy != null)
         {
