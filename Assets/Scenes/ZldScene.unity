@@ -7373,7 +7373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7aab0c2df9e0b244a1504bf5f1100d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
+  sceneToLoad: ScoreScene3
 --- !u!4 &1732427583
 Transform:
   m_ObjectHideFlags: 0

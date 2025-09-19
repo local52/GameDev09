@@ -90,16 +90,13 @@ public class PlayerMovement : PlayerBulletController
         {
             Destroy(gameObject); // é©êgÇîjâÛ
             FindObjectOfType<PlayerDeathSceneLoader>().OnPlayerDeath();
-
         }
     }
 
     void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag(groundTag))
-        {
             isGrounded = true;
-        }
     }
 
     void OnCollisionExit(Collision collision)

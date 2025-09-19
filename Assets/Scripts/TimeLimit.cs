@@ -32,6 +32,7 @@ public class TimeLimit : MonoBehaviour
         if (currentTime <= 0 && player != null)
         {
             Destroy(player);
+            FindObjectOfType<PlayerDeathSceneLoader>().OnPlayerDeath();
         }
     }
 }

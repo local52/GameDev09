@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ClushScene.unity
-    guid: 341c2860f7d92c04a8b6d2a6deeeb165
+    path: Assets/Scenes/StartScene.unity
+    guid: 5c2b1b99eb9706d4691a94511c5ab5fb
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -15,18 +15,24 @@ EditorBuildSettings:
     path: Assets/Scenes/ScoreScene.unity
     guid: adb954d025a9a994cac3d02ee57a7ad9
   - enabled: 1
-    path: Assets/Scenes/ZldScene.unity
-    guid: b5efd25f13254154aa3d81c746e1bf34
-  - enabled: 1
-    path: Assets/Scenes/StartScene.unity
-    guid: 5c2b1b99eb9706d4691a94511c5ab5fb
-  - enabled: 1
-    path: Assets/Scenes/WinScene.unity
-    guid: a238e32641882d447a609ea99e8bb930
+    path: Assets/Scenes/ClushScene.unity
+    guid: 341c2860f7d92c04a8b6d2a6deeeb165
   - enabled: 1
     path: Assets/Scenes/ScoreScene2.unity
     guid: 96c4433d38bce384e8c00de36a1cb2d8
   - enabled: 1
+    path: Assets/Scenes/ZldScene.unity
+    guid: b5efd25f13254154aa3d81c746e1bf34
+  - enabled: 1
     path: Assets/Scenes/ScoreScene3.unity
     guid: 13e9520ed96c39d47b40616703010797
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: a238e32641882d447a609ea99e8bb930
+  - enabled: 1
+    path: Assets/Scenes/FireScene.unity
+    guid: a0782d9d4721ff84d8df1a22ebebc0c4
+  - enabled: 1
+    path: Assets/Scenes/HotScene.unity
+    guid: 88b535c5a9d7ad8408a21534a325d190
   m_configObjects: {}

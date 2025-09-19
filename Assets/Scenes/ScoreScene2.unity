@@ -839,6 +839,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1899736563652736214, guid: 047ae45db8a9a8e4ba0deb57eb141c04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5496033870947850425, guid: 047ae45db8a9a8e4ba0deb57eb141c04, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1277,7 +1281,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1833225319}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 180323428}
+        m_TargetAssemblyTypeName: ButtonSceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1833225319
 MonoBehaviour:
   m_ObjectHideFlags: 0
